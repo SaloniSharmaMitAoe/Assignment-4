@@ -1,12 +1,12 @@
 <?php
 header("Content-type: application/json");
-require 'Data.php';
+require 'https://github.com/SaloniSharmaMitAoe/Assignment-4/Data.php';
 // include 'Data.php';
 
 $req = $_GET['req'] ?? null;
 
 if ($req) {
-    $jsonData = file_get_contents("restaurant.json");
+    $jsonData = file_get_contents("https://github.com/SaloniSharmaMitAoe/Assignment-4/restaurant.json");
     $dataList = json_decode($jsonData, true)['menu_items'];
     try {
         $menuData = new RestaurantData($dataList);
