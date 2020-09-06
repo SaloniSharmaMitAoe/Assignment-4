@@ -8,7 +8,7 @@
 <body>
     <script src="jquery-3.5.1.min.js"></script>
     <script>
-        let base_url = "http://localhost/saloni/controller.php";
+        let base_url = "https://github.com/SaloniSharmaMitAoe/Assignment-4/controller.php";
 
         function PopulateDropDownListByname(){
           let url = base_url + "?req=name_list";
