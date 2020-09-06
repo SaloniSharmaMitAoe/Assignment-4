@@ -6,6 +6,7 @@
     <title>salbar.com</title>
 </head>
 <body>
+    <p>hello</p>
     <script src="jquery-3.5.1.min.js"></script>
     <script>
         let base_url = "https://github.com/SaloniSharmaMitAoe/Assignment-4/controller.php";
